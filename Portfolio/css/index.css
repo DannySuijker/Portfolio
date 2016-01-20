@@ -101,9 +101,9 @@ input
 
 textarea
 {
+	font-size: 14pt;
 	text-align: left;	
-	margin-top: 10px; 
-	padding-left: 70px;
+	margin-top: 10px;
 	margin-right: 30px;
 }
 
