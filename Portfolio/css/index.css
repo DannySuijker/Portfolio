@@ -53,7 +53,7 @@ nav ul li a
 	color: #99ccff;
 	text-decoration: none;
 	display: inline;
-	padding: 25px;
+	margin: 25px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -85,6 +85,26 @@ img
 	width: 375px;
 	height: 200px;
 	border: 1px solid black;
+}
+
+label
+{
+	display: block;
+}
+
+input
+{
+	font-size: 14pt;
+	text-align: left;
+	margin-top: 10px;
+}
+
+textarea
+{
+	text-align: left;	
+	margin-top: 10px; 
+	padding-left: 70px;
+	margin-right: 30px;
 }
 
 p
