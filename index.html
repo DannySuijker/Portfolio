@@ -1,8 +1,9 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 	<html>
 	
 		<head>
 			<title>Portfolio Danny Suijker</title>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 			<link rel="stylesheet" type="text/css" href="css/index.css">
 		</head>
 
@@ -14,13 +15,12 @@
 						<li><a href="#skills">Skills</a></li>
 						<li><a href="#projects">Projects</a></li>
 						<li><a href="#contact">Contact</a></li>
-						<li><a href="#contactform">Contact Me</a></li>
 					</ul>
 				</nav>
 				<section>
-
+				
 				<article id="about">
-					<header>About</header>
+					<h2>About</h2>
 					<p>
 						My name is Danny Suijker iam 19 years old and live in Honselersdijk the Netherlands.<br/>
 						Iam following the study Software development at ROC Mondriaan located in The Hague.<br/>
@@ -37,33 +37,42 @@
 				</article>
 
 				<article id="skills">
-					<header>Skills</header>
+					<h2>Skills</h2>
 						<p>
-							<ul>
-								<li>Basic PHP</li>
-								<li>Basic MySQL</li>
-								<li>Basic JavaScript</li>
-								<li>Basic HTML</li>
-								<li>Basic CSS</li>
-								<li>Oracle Database Design certificate</li>
-							</ul>
+						<ul>
+							<li>Basic PHP</li>
+							<li>Basic MySQL</li>
+							<li>Basic JavaScript</li>
+							<li>Basic HTML</li>
+							<li>Basic CSS</li>
+							<li>Oracle Database Design certificate</li>
+						</ul>
 						</p>
 				</article>
 				
 				<article id="projects">
-					<header>Projects</header>	
-						<h3>A gambling game</h3>	
-						<img src="img/HL.png" onclick="window.open(this.src)">	
-						<h3>Math test lower school</h3>
-						<img src="img/Keuze.png" onclick="window.open(this.src)">		
-						<h3>Four in a row</h3>
-						<img src="img/vieropeenrij.png" onclick="window.open(this.src)">	
-						<h3>A webshop</h3>
-						<img src="img/site.png" onclick="window.open(this.src)">
+					<h2>Projects</h2>	
+							
+						<div>	
+							<h3>A gambling game</h3>
+							<img src="img/HL.png" onclick="window.open(this.src)">
+						</div>	
+						<div>
+							<h3>Math test lower school</h3>
+							<img src="img/Keuze.png" onclick="window.open(this.src)">	
+						</div>	
+						<div>
+							<h3>Four in a row</h3>
+							<img src="img/vieropeenrij.png" onclick="window.open(this.src)">	
+						</div>
+						<div>
+							<h3>A webshop</h3>
+							<img src="img/site.png" onclick="window.open(this.src)">
+						</div>
 				</article>	
 				
 				<article id="contact">
-					<header>Contact</header>
+					<h2>Contact</h2>
 					<p>
 						<table>
 							<tr>
@@ -75,15 +84,11 @@
 								<td>Honselersdijk</td>
 							</tr>
 							<tr>
-								<th>Country</th>
+								<th>Country:</th>
 								<td>The Netherlands</td>
 							</tr>
 						</table>
 					</p>
-				</article>
-
-				<article id="contactform">
-					<header>Contact Me</header>
 					<form name="mailme">
 						<label>Name: <input type="text" name="name"></label>
 						<label>Email: <input type="text" name="email"></label>
