@@ -5,9 +5,9 @@
 }
 
 header {
-	padding-top: 15px;	
-	margin-left: 335px;
-	margin-right: 335px;
+	padding-top: 2%;	
+	margin-left: 17%;
+	margin-right: 17%;
 	border-bottom: 2px solid darkgray;
 	color: lightblue;
 	font-size: 14pt;
@@ -15,16 +15,16 @@ header {
 }
 
 h1 {
-	padding-top: 25px;
-	padding-bottom: 25px;
-	margin-left: 335px;
-	margin-right: 335px;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	margin-left: 17%;
+	margin-right: 17%;
 	border-bottom: 2px solid darkgray;
 	color: blue;
 }
 
 h3 {
-	margin-top: 10px;
+	margin-top: 1%;
 }
 
 ul li a:hover {
@@ -35,28 +35,28 @@ ul li a:hover {
 nav ul {
 	position: relative;  
 	background-color: blue;
-	height: 25px;
+	height: 5%;
 	width: 50%;
 	margin: auto;
-	margin-top: 50px;
-	padding-top: 5px;	
+	margin-top: 2%;
+	padding-top: 1%;	
 }
 
 nav ul li a {
 	color: #99ccff;
 	text-decoration: none;
 	display: inline;
-	margin: 25px;
+	margin: 2%;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
-	font-size: 14px;
+	font-size: 14pt;
 	position: relative;
 }
 
 nav ul li {
 	display: inline;
-	padding-right: 10px;
+	padding-right: 1%;
 }
 
 article ul li {
@@ -70,9 +70,9 @@ table {
 img {
 	display: block;
 	margin: auto;
-	margin-top: 10px;
-	width: 375px;
-	height: 200px;
+	margin-top: 1%;
+	width: 35%;
+	height: 40%;
 	border: 1px solid black;
 }
 
@@ -83,26 +83,26 @@ label {
 input {
 	font-size: 14pt;
 	text-align: left;
-	margin-top: 10px;
+	margin-top: 1%;
 }
 
 textarea { 
 	font-size: 14pt;
 	text-align: left;	
-	margin-top: 10px;
-	margin-right: 30px;
+	margin-top: 1%;
+	margin-right: 2%;
 }
 
 p {
-	margin-top: 10px;
+	margin-top: 1%;
 }
 
-footer {
-	margin-top: 50px;
-	padding-top: 25px;
-	padding-bottom: 25px;
-	margin-left: 335px;
-	margin-right: 335px;
+footer{
+	margin-top: 4%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	margin-left: 17%;
+	margin-right: 17%;
 	border-top: 2px solid darkgray;
 	color: blue;
 }
