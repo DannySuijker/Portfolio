@@ -1,12 +1,10 @@
-*
-{
+* {
 	margin: 0;
 	padding: 0;
 	text-align: center;
 }
 
-header
-{
+header {
 	padding-top: 15px;	
 	margin-left: 335px;
 	margin-right: 335px;
@@ -16,8 +14,7 @@ header
 	font-weight: bold;
 }
 
-h1
-{
+h1 {
 	padding-top: 25px;
 	padding-bottom: 25px;
 	margin-left: 335px;
@@ -26,19 +23,16 @@ h1
 	color: blue;
 }
 
-h3
-{
+h3 {
 	margin-top: 10px;
 }
 
-ul li a:hover 
-{
+ul li a:hover {
 	color: white;
 }
 
 
-nav ul
-{
+nav ul {
 	position: relative;  
 	background-color: blue;
 	height: 25px;
@@ -48,8 +42,7 @@ nav ul
 	padding-top: 5px;	
 }
 
-nav ul li a 
-{
+nav ul li a {
 	color: #99ccff;
 	text-decoration: none;
 	display: inline;
@@ -61,24 +54,20 @@ nav ul li a
 	position: relative;
 }
 
-nav ul li
-{
+nav ul li {
 	display: inline;
 	padding-right: 10px;
 }
 
-article ul li
-{
+article ul li {
 	list-style: none;
 }
 
-table
-{
+table {
 	margin: auto;
 }
 
-img
-{
+img {
 	display: block;
 	margin: auto;
 	margin-top: 10px;
@@ -87,33 +76,28 @@ img
 	border: 1px solid black;
 }
 
-label
-{
+label {
 	display: block;
 }
 
-input
-{
+input {
 	font-size: 14pt;
 	text-align: left;
 	margin-top: 10px;
 }
 
-textarea
-{
+textarea { 
 	font-size: 14pt;
 	text-align: left;	
 	margin-top: 10px;
 	margin-right: 30px;
 }
 
-p
-{
+p {
 	margin-top: 10px;
 }
 
-footer
-{
+footer {
 	margin-top: 50px;
 	padding-top: 25px;
 	padding-bottom: 25px;

@@ -4,7 +4,6 @@
 		<head>
 			<title>Portfolio Danny Suijker</title>
 			<link rel="stylesheet" type="text/css" href="css/index.css">
-			<script type="text/javascript" src="js/form.js"></script>
 		</head>
 
 		<body>
@@ -85,14 +84,18 @@
 
 				<article id="contactform">
 					<header>Contact Me</header>
-					<label>Name: <input type="text"></label>
-					<label>Email: <input type="text"></label>
-					<label>Comment: <textarea></textarea></label>
-					<input type="submit" value="Send">
+					<form name="mailme">
+						<label>Name: <input type="text" name="name"></label>
+						<label>Email: <input type="text" name="email"></label>
+						<label>Comment: <textarea name="comment"></textarea></label>
+						<input type="button" value="Send mail" name="mailme" onclick="sendMail()">
+					</form>
+
 				</article>
 			</section>
 			
 			<footer>&copy; Danny Suijker 2016</footer>
+			<script type ="text/javascript" src="js/form.js"></script>
 		</body>
 		
 	</html>
