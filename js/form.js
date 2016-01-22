@@ -6,6 +6,8 @@ function sendMail()
 	}
 }
 
+//checks if the name email and comment are filled 
+
 function checkName()
 {
 	var name = document.getElementsByName('name')[0].value;
@@ -13,6 +15,8 @@ function checkName()
 		return true;
 	}
 }
+
+//checks if the name matches the right characters
 
 function checkEmail()
 {
@@ -22,6 +26,8 @@ function checkEmail()
 	}
 }
 
+//checks if the email consist an @ and an .com or somthing like that 
+
 function checkComment()
 {
 	var comment = document.	getElementsByName('comment')[0].value;
@@ -29,3 +35,5 @@ function checkComment()
 		return true;
 	}
 }
+
+//checks if the comment is filled
