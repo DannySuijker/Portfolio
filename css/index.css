@@ -72,14 +72,9 @@ nav ul li a {
     text-decoration: none;
 }
 
-nav ul li a:hover:not(.active) {
+nav ul li a:hover {
     background-color: #111;
 }
-
-.active {
-    background-color: #4CAF50;
-}
-
 
 #about {
 	
