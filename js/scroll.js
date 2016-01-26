@@ -23,6 +23,7 @@ function navPos() {
             updatedPos = 'absolute';
         } else if(pos >= topPos && updatedPos != 'fixed') {
             bar.style.position = 'fixed';
+            bar.style.width = '100%';
             bar.style.top = '0';    
             updatedPos = 'fixed';
         }
