@@ -3,13 +3,13 @@ var updatedPos;
 window.onscroll = navPos;
 
 if(!topPos) {
-    topPos = 80;
+    topPos = 100;
 }
 function navPos() {
     var pos = window.scrollY;
 
     if(!topPos) {
-        topPos = 80;
+        topPos = 100;
     }
 
     var bar = document.getElementById('nav_bar');
@@ -24,7 +24,7 @@ function navPos() {
         } else if(pos >= topPos && updatedPos != 'fixed') {
             bar.style.position = 'fixed';
             bar.style.width = '100%';
-            bar.style.top = '0';    
+            bar.style.top = '0';
             updatedPos = 'fixed';
         }
     }

@@ -1,6 +1,8 @@
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
 }
 
 body {
@@ -39,6 +41,7 @@ h3 {
 }
 
 nav {
+	z-index: 10;
 	max-height: 40px;
 }
 .nav_links {
@@ -55,8 +58,7 @@ nav {
 	border-right:1px solid #bbbbbb;
 }
 
-.a_links
-{
+.a_links {
     display: inline-block;
     color: #ffffff;
     padding: 14px 16px;
@@ -67,52 +69,44 @@ nav {
     background-color: #111111;
 }
 
-article {
+.skillsImg {
+	max-width: 100px;
+	margin: 2% 2% 0;
+	width: 100%;
+	height: auto;
+}
+
+.skillsText {
+	margin: 0 3% 0 3%;
+}
+
+section {
 	padding: 3% 0 2%;
 }
 
-.about-article {
-	border-bottom: 4px solid #8a8a8a;
+.block-section {
 	width: 100%;
-	height: 100%;
-	margin: auto;
+	height: 100vh;
+	padding-top: 70px;
+}
+
+.about {
+	border-bottom: 4px solid #8a8a8a;
 	background-color: #6666ff;
     margin-top: 6%;
 }
 
-.skills-article {
-	width: 100%;
-	height: 100%;
-	margin: auto;
+.skills {
 	background-color: #ffffff;
 }
 
-.projects-article {
-	width: 100%;
-	height: 100%;
-	margin: auto;
+.projects {
 	background-color: #6666ff;
 	border-bottom: 4px solid #8a8a8a;
 }
 
-.contact-article {
-	width: 100%;
-	height: 100%;
-	margin: auto;
+.contact {
 	background-color: #ffffff;
-}
-
-div {
-	display: inline-block;
-	margin: 10px;
-	max-width: 200px;
-	max-height: 300px;
-}
-
-article ul li {
-	margin: 0 17% 0 17%;
-	display: block;
-	list-style: none;
 }
 
 table {
@@ -120,13 +114,43 @@ table {
 	text-align: left;
 }
 
-img {
+.slider {
 	display: inline-block;
-	max-width: 235px;
-	margin-top: 1%;
+	position: relative;
+	max-width: 890px;
+}
+
+#left-button {
+	z-index: 9;
+	left: 5px;
+	margin-top: 23%;
+	max-width: 25px;
+	width: 100%;
+	height: auto;
+	position: absolute;
+}
+
+#right-button {
+	z-index: 9;
+	right: 5px;
+	margin-top: 23%;
+	max-width: 25px;
+	width: 100%;
+	height: auto;
+	position: absolute;
+}
+
+.projectsImg {
+	margin-top: 2%;
+	position: relative;
 	width: 100%;
 	height: auto;
 	border: 1px solid #bbbbbb;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
 }
 
 label {
@@ -154,10 +178,10 @@ p {
 }
 
 footer {
-	margin-top: 4%;
+	margin-bottom: 1%;
 	padding-top: 2%;
 	padding-bottom: 2%;
-	margin: 0 17%;
+	margin: 0 17%;z
 	border-top: 2px solid #bbbbbb;
 	color: #0000ff;
 }

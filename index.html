@@ -4,22 +4,22 @@
 		<head>
 			<title>Portfolio Danny Suijker</title>
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
-			<link rel="stylesheet" type="text/css" href="css/index.css">
+			<link rel="stylesheet" type="text/css" href="css/style.css">
 		</head>
 
 		<body>
 			<h1>Danny Suijker</h1>
 				<nav id="nav_bar">
 					<ul class="nav_links">
-						<li><a href="#about">About</a></li>
-						<li><a href="#skills">Skills</a></li>
-						<li><a href="#projects">Projects</a></li>
-						<li><a href="#contact">Contact</a></li>
+						<li class="li_links"><a class="a_links" href="#about">About</a></li>
+						<li class="li_links"><a class="a_links" href="#skills">Skills</a></li>
+						<li class="li_links"><a class="a_links" href="#projects">Projects</a></li>
+						<li class="li_links"><a class="a_links" href="#contact">Contact</a></li>
 					</ul>
 				</nav>
-				<section>
+			<section>
 				
-				<article id="about">
+				<section id="about" class="about block-section">
 					<h2>About</h2>
 					<p>
 						My name is Danny Suijker I'am 19 years old and live in Honselersdijk the Netherlands.<br/>
@@ -34,44 +34,40 @@
 						I started with a study that is equal to my interesst and iam still making progress in programming.<br/>
 						I just started as an intern at Competa IT.
 					</p>
-				</article>
+				</section>
 
-				<article id="skills">
+				<section id="skills" class="skills block-section">
 					<h2>Skills</h2>
 						<p>
-						<ul>
-							<li>Basic PHP</li>
-							<li>Basic MySQL</li>
-							<li>Basic JavaScript</li>
-							<li>Basic HTML</li>
-							<li>Basic CSS</li>
-							<li>Oracle Database Design certificate</li>
-						</ul>
+							<img class="skillsImg" src="img/html.png">
+							<img class="skillsImg" src="img/CSS.png">
+							<img class="skillsImg" src="img/javascript.png">
+							<br/>
+							<a class="skillsText">Basic skills</a>
+							<a class="skillsText">Basic skills</a>
+							<a class="skillsText">Basic skills</a>
+							<br/>
+							<img class="skillsImg" src="img/php.png">
+							<img class="skillsImg" src="img/MySQL.png">
+							<img class="skillsImg" src="img/java.png">
+							<br/>
+							<a class="skillsText">Basic skills</a>
+							<a class="skillsText">Basic skills</a>
+							<a class="skillsText">Basic skills</a>
 						</p>
-				</article>
+				</section>
 				
-				<article id="projects">
-					<h2>Projects</h2>	
-							
-						<div>	
-							<h3>A gambling game</h3>
-							<img src="img/HL.png" onclick="window.open(this.src)">
-						</div>	
-						<div>
-							<h3>Math test lower school</h3>
-							<img src="img/Keuze.png" onclick="window.open(this.src)">	
-						</div>	
-						<div>
-							<h3>Four in a row</h3>
-							<img src="img/vieropeenrij.png" onclick="window.open(this.src)">	
-						</div>
-						<div>
-							<h3>A webshop</h3>
-							<img src="img/site.png" onclick="window.open(this.src)">
-						</div>
-				</article>	
+				<section id="projects" class="projects block-section">
+					<h2>Projects</h2>
+					<div class="slider">
+						<img id="left-button" onclick="onClick('left')" src="img/left.png"></img>
+						<img id="right-button" onclick="onClick('right')" src="img/right.png"></img>
+						<img class="projectsImg" src="img/HL.png">
+					</div>
+
+				</section>
 				
-				<article id="contact">
+				<section id="contact" class="contact block-section">
 					<h2>Contact</h2>
 					<p>
 						<table>
@@ -96,13 +92,14 @@
 						<input type="button" value="Send mail" name="mailme" onclick="sendMail()">
 					</form>
 
-				</article>
-			</section>
-			
-			<footer>&copy; Danny Suijker 2016</footer>
+				</section>
+				<footer>&copy; Danny Suijker 2016</footer>
 
-			<script type ="text/javascript" src="js/form.js"></script>
-			<script type ="text/javascript" src="js/scroll.js"></script>
+			</section>
+			<script src="js/imageslider.js"></script>
+			<script src="js/form.js"></script>
+			<script src="js/scroll.js"></script>
+
 		</body>
 		
 	</html>
