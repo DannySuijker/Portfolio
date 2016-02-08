@@ -3,13 +3,13 @@ var updatedPos;
 window.onscroll = navPos;
 
 if(!topPos) {
-    topPos = 100;
+    topPos = 0;
 }
 function navPos() {
     var pos = window.scrollY;
 
     if(!topPos) {
-        topPos = 100;
+        topPos = 0;
     }
 
     var bar = document.getElementById('nav_bar');
